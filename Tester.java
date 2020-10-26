@@ -8,6 +8,10 @@ public class Tester {
     System.out.println( a1.getBalance() );
     System.out.println( a1.deposit(150.0) );
     System.out.println( a1.getBalance() );
+    System.out.println( a1.withdraw(-10.0) );
+    System.out.println( a1.getBalance() );
+    System.out.println( a1.withdraw(75.0) );
+    System.out.println( a1.getBalance() );
   }
 
 }
